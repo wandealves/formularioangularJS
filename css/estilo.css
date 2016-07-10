@@ -1,0 +1,63 @@
+#area
+{
+    position:relative;
+    left:37%;
+    top:29%;
+    width:450px;
+    height:300px;
+}
+#area #formulario
+{
+    position:absolute;
+    display:block;  
+}
+fieldset
+{
+    width:400px;
+    height:280px;
+}
+ 
+legend
+{
+    font-style:bold;
+    font-family: "Segoe UI";
+}
+#formulario label
+{
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+}
+ 
+ 
+#formulario input.campo_nome
+{
+    position:absolute;
+    left:95px;
+    top:23px;
+    width:310px;
+}
+#formulario input.campo_email
+{
+    position:absolute;
+    left:95px;
+    margin-top:2px;
+    width:310px;
+}
+
+#formulario textarea.msg
+{
+    position:absolute;
+    left:95px;
+    margin-top:2px;
+    width:310px;
+}
+
+#formulario input.btn_submit
+{
+    position:absolute;
+    left:95px;
+    margin-top:105px;
+    width:310px;
+    height:28px;
+}
